@@ -1,0 +1,40 @@
+
+# Word Frequency Histogram
+
+This project is a React frontend application that fetches the contents of a text file, calculates the frequency of occurrence of each word, and displays a histogram of the 20 most occurring words. It also provides an option to export the histogram data as a CSV file.
+
+## Components
+
+The application consists of the following components:
+
+- `App`: The main component that handles the fetching of data, calculates word frequencies, and renders the histogram and export functionality.
+
+## Libraries and Plugins Used
+
+The project utilizes the following libraries and plugins:
+
+- React: A JavaScript library for building user interfaces.
+- react-chartjs-2: A React wrapper for Chart.js, which provides interactive and customizable charts.
+- Chart.js: A JavaScript library for creating charts.
+
+## Usage
+
+To run the application locally, follow these steps:
+
+1. Clone the repository or download the source code.
+2. Install the dependencies by running `npm install`.
+3. Start the development server by running `npm start`.
+4. Open your browser and visit `http://localhost:3000` to view the application.
+5. Click the "Submit" button to fetch the text file and generate the word frequency histogram.
+6. The histogram chart will be displayed, showing the top 20 words with the highest occurrence.
+7. Click the "Export" button to download the histogram data as a CSV file.
+
+## Deploy
+
+Deployed this project on netlify with following steps:
+
+1. Run build command on terminal `npm run build`.
+2. Dist folder is created.
+3. Upload this folder on netlify and then generated a link.
+
+## Deployment link - https://word-frequency20.netlify.app/
